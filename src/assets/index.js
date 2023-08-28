@@ -25,6 +25,7 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
+import molteni from "./company/molteni.jpeg";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
@@ -63,6 +64,7 @@ export {
   constructorLearning,
   xcelBrands,
   meta,
+  molteni,
   shopify,
   starbucks,
   tesla,
