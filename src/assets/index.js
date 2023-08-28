@@ -24,11 +24,15 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
+import elemis from "./company/elemis.png";
 import meta from "./company/meta.png";
 import molteni from "./company/molteni.jpeg";
+import nicoleFahri from "./company/nicoleFahri.png";
+import osw from "./company/osw.jpeg";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import smiley from "./company/smiley.png";
 import constructorLearning from "./company/constructor-learning.png";
 import xcelBrands from "./company/xcel-brands.png";
 
@@ -55,6 +59,8 @@ export {
   javascript,
   mongodb,
   nodejs,
+  nicoleFahri,
+  osw,
   python,
   reactjs,
   redux,
@@ -62,13 +68,15 @@ export {
   typescript,
   threejs,
   constructorLearning,
-  xcelBrands,
+  elemis,
   meta,
   molteni,
   shopify,
   starbucks,
   tesla,
+  smiley,
   carrent,
   jobit,
   tripguide,
+  xcelBrands,
 };
