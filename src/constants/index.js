@@ -35,6 +35,7 @@ import {
   pongGame2,
   tripguide,
   threejs,
+  toDoListApp,
   xcelBrands,
 } from "../assets";
 
@@ -46,6 +47,10 @@ export const navLinks = [
   {
     id: "work",
     title: "Work",
+  },
+  {
+    id: "portfolio",
+    title: "Portfolio",
   },
   {
     id: "contact",
@@ -249,27 +254,6 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
     name: "Luna",
     description:
       "A Yelp look-alike in Python/Django and ES6/React stack. Anonymous / Registered Users Access, Creation / View/ Update/ Delete of Restaurant and Reviews.",
@@ -293,6 +277,27 @@ const projects = [
     ],
     image: luna,
     source_code_link: "https://github.com/iamlydial/luna-project",
+  },
+  {
+    name: "To Do List App",
+    description:
+      "To Do list app with User Registration, Login, Search and full Create Read Update and DELETE functionality. Setting up models and database, Create, Update ,Delete Items, Login/Logout, User Registration, Search",
+    tags: [
+      {
+        name: "python",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "django",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+    ],
+    image: toDoListApp,
+    source_code_link: "https://github.com/iamlydial/Django-To-Do-List-App",
   },
   {
     name: "Pong Game",

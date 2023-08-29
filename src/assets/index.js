@@ -43,6 +43,7 @@ import luna from "./luna.png";
 import tripguide from "./tripguide.png";
 import pongGame from "./pongGame.png";
 import pongGame2 from "./pongGame2.png";
+import toDoListApp from "./toDoListApp.png";
 
 export {
   logo,
@@ -86,5 +87,6 @@ export {
   pongGame,
   pongGame2,
   tripguide,
+  toDoListApp,
   xcelBrands,
 };
