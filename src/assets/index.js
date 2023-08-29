@@ -39,6 +39,7 @@ import xcelBrands from "./company/xcel-brands.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import pongGame from "./pongGame.png"
 
 export {
   logo,
@@ -77,6 +78,7 @@ export {
   smiley,
   carrent,
   jobit,
+  pongGame,
   tripguide,
   xcelBrands,
 };

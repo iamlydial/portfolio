@@ -29,6 +29,7 @@ import {
   shopify,
   carrent,
   jobit,
+  pongGame,
   tripguide,
   threejs,
   xcelBrands,
@@ -268,7 +269,7 @@ const projects = [
   {
     name: "Job IT",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A Yelp look-alike in Python/Django and ES6/React stack. Anonymous / Registered Users Access, Creation / View/ Update/ Delete of Restaurant and Reviews.",
     tags: [
       {
         name: "react",
@@ -287,25 +288,25 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Pong Game",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A fun and simple Ping Pong game using HTML, CSS, and JavaScript. The game has score counter and increasing complexity. The gradient background of the game increase as the complexity increases.",
     tags: [
       {
-        name: "nextjs",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "css",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: pongGame,
+    source_code_link: "https://iamlydial.github.io/pong-game-js/",
   },
 ];
 
