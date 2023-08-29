@@ -28,7 +28,8 @@ const Contact = () => {
   };
 
   const handleSubmit = (e) => {
-    e.preveventDefault();
+    e.preventDefault(); // Fix typo
+
     setLoading(true);
 
     emailjs
@@ -42,7 +43,7 @@ const Contact = () => {
           to_email: "lydia.lavecchia@gmail.com",
           message: form.message,
         },
-        "T_6vPzxZlurc8I35md"
+        "T_6vPzxZlurc8I35m"
       )
       .then(
         () => {
@@ -57,12 +58,13 @@ const Contact = () => {
         },
         (error) => {
           setLoading(false);
-          console.log(error);
+          console.error(error); // Log the error for debugging
 
           alert("Ahh, something went wrong. Please try again");
         }
       );
   };
+
   return (
     <div
       className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
