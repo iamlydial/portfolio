@@ -37,9 +37,12 @@ import constructorLearning from "./company/constructor-learning.png";
 import xcelBrands from "./company/xcel-brands.png";
 
 import carrent from "./carrent.png";
+import constructorWebsite from "./constructorWebsite.png";
 import jobit from "./jobit.png";
+import luna from "./luna.png";
 import tripguide from "./tripguide.png";
-import pongGame from "./pongGame.png"
+import pongGame from "./pongGame.png";
+import pongGame2 from "./pongGame2.png";
 
 export {
   logo,
@@ -69,6 +72,7 @@ export {
   typescript,
   threejs,
   constructorLearning,
+  constructorWebsite,
   elemis,
   meta,
   molteni,
@@ -78,7 +82,9 @@ export {
   smiley,
   carrent,
   jobit,
+  luna,
   pongGame,
+  pongGame2,
   tripguide,
   xcelBrands,
 };

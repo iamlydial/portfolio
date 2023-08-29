@@ -28,8 +28,11 @@ import {
   tesla,
   shopify,
   carrent,
+  constructorWebsite,
   jobit,
+  luna,
   pongGame,
+  pongGame2,
   tripguide,
   threejs,
   xcelBrands,
@@ -267,7 +270,7 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Luna",
     description:
       "A Yelp look-alike in Python/Django and ES6/React stack. Anonymous / Registered Users Access, Creation / View/ Update/ Delete of Restaurant and Reviews.",
     tags: [
@@ -280,12 +283,16 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "python",
         color: "pink-text-gradient",
       },
+      {
+        name: "django",
+        color: "green-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: luna,
+    source_code_link: "https://github.com/iamlydial/luna-project",
   },
   {
     name: "Pong Game",
@@ -307,6 +314,44 @@ const projects = [
     ],
     image: pongGame,
     source_code_link: "https://iamlydial.github.io/pong-game-js/",
+  },
+  {
+    name: "Pong Game 2",
+    description:
+      "A fun and simple Ping Pong game using HTML, CSS, vanilla JavaScript and Canva. A good way to practice Drawing Elements, Ball Bouncing Mechanics, Paddle (player) movement.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Canva",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: pongGame2,
+    source_code_link: "https://iamlydial.github.io/pong-game-canva/",
+  },
+  {
+    name: "Constructor Learning Website",
+    description:
+      "A replica of the Constructor Learning Web Development School page website, including a side navigation bar and a list of courses. Simple Html and Css page exercise to get familiar with Css flexbox.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+    ],
+    image: constructorWebsite,
+    source_code_link: "https://iamlydial.github.io/constructor-website/",
   },
 ];
 
