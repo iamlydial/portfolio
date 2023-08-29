@@ -28,7 +28,7 @@ const Contact = () => {
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault(); // Fix typo
+    e.preventDefault(); 
 
     setLoading(true);
 
