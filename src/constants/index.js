@@ -38,6 +38,13 @@ import {
   threejs,
   toDoListApp,
   xcelBrands,
+  angularCalculator,
+  cryptoApp,
+  gymApp,
+  materialUI,
+  memeGenerator,
+  nike,
+  threadsClone,
 } from "../assets";
 
 export const navLinks = [
@@ -156,7 +163,7 @@ const experiences = [
       "Cloud-based power network analytics platform.",
       "Creation of full-stack Angular/NodeJS/R synthetic grid generator with OpenMap API part of the Publication below",
       "Maintenance of the already existing R code base and for the transition to geospatial ETLs.",
-      "Backend Data Mitigation strategies in Java and Junit"
+      "Backend Data Mitigation strategies in Java and Junit",
     ],
   },
   {
@@ -271,6 +278,127 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "NextJS Threads clone With Tailwind",
+    description: "A clone of the Threads app using Clerk login",
+    tags: [
+      {
+        name: "nextJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TailwindCss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Clerk Login",
+        color: "green-text-gradient",
+      },
+    ],
+    image: threadsClone,
+    source_code_link: "https://threads-six-sigma.vercel.app/",
+  },
+  {
+    name: "CriptoVerse",
+    description:
+      "A monitoring dashboard of Crypto currencies in React and Material UI using third party Rapid API",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "materialUI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Rapid API",
+        color: "green-text-gradient",
+      },
+    ],
+    image: cryptoApp,
+    source_code_link: "https://cryptoapp-rho-topaz.vercel.app/",
+  },
+  {
+    name: "Angular Calculator With Tailwind",
+    description:
+      "An Angular Calculator app using Tailwind framework and deployed on Vercel",
+    tags: [
+      {
+        name: "angular",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TailwindCss",
+        color: "green-text-gradient",
+      },
+    ],
+    image: angularCalculator,
+    source_code_link: "https://meme-generator-amber-psi.vercel.app/",
+  },
+  {
+    name: "Meme Generator",
+    description:
+      "An Angular Meme genrator app. The user is able to upload a picture write on it and download it, deployed on Vercel.",
+    tags: [
+      {
+        name: "angular",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "image upload",
+        color: "green-text-gradient",
+      },
+      {
+        name: "image download",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: memeGenerator,
+    source_code_link: "https://meme-generator-amber-psi.vercel.app/",
+  },
+  {
+    name: "Nike Landing Page Clone",
+    description:
+      "An React Nike landing page clone using TailwindCss, deployed on Vercel.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TailwindCss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "responsive",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: nike,
+    source_code_link: "https://nike-black.vercel.app/",
+  },
+  {
+    name: "Gym App Landing Page",
+    description:
+      "An React gym app landing page using TailwindCss, deployed on Vercel.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TailwindCss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "responsive",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: gymApp,
+    source_code_link: "https://wellness-gym.vercel.app/",
+  },
   {
     name: "Luna",
     description:

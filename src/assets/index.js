@@ -45,6 +45,13 @@ import tripguide from "./tripguide.png";
 import pongGame from "./pongGame.png";
 import pongGame2 from "./pongGame2.png";
 import toDoListApp from "./toDoListApp.png";
+import angularCalculator from "./angular_calculator.png";
+import cryptoApp from "./cryptovalute.png";
+import gymApp from "./gym_app.png";
+import materialUI from "./maerial_ui.png";
+import memeGenerator from "./meme_generator.png";
+import nike from "./nike.png";
+import threadsClone from "./threads_clone.png";
 
 export {
   logo,
@@ -91,4 +98,11 @@ export {
   tripguide,
   toDoListApp,
   xcelBrands,
+  angularCalculator,
+  cryptoApp,
+  gymApp,
+  materialUI,
+  memeGenerator,
+  nike,
+  threadsClone,
 };
