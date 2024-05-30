@@ -34,6 +34,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import smiley from "./company/smiley.png";
 import constructorLearning from "./company/constructor-learning.png";
+import secureMeters from "./company/secure_meters_logo.png";
 import xcelBrands from "./company/xcel-brands.png";
 
 import carrent from "./carrent.png";
@@ -73,6 +74,7 @@ export {
   typescript,
   threejs,
   constructorLearning,
+  secureMeters,
   constructorWebsite,
   elemis,
   meta,

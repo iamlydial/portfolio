@@ -29,6 +29,7 @@ import {
   shopify,
   carrent,
   constructorWebsite,
+  secureMeters,
   jobit,
   luna,
   pongGame,
@@ -55,6 +56,10 @@ export const navLinks = [
   {
     id: "contact",
     title: "Contact",
+  },
+  {
+    id: "publications",
+    title: "Publications",
   },
 ];
 
@@ -142,11 +147,24 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Full-Stack Engineer Practice",
+    company_name: "Secure Meters Switzerland",
+    icon: secureMeters,
+    iconBg: "#f5f3f2",
+    date: "December 2023 - August 2024",
+    points: [
+      "Cloud-based power network analytics platform.",
+      "Creation of full-stack Angular/NodeJS/R synthetic grid generator with OpenMap API part of the Publication below",
+      "Maintenance of the already existing R code base and for the transition to geospatial ETLs.",
+      "Backend Data Mitigation strategies in Java and Junit"
+    ],
+  },
+  {
     title: "Full-Stack Developer | Student",
     company_name: "Constructor Learning",
     icon: constructorLearning,
     iconBg: "#f5f3f2",
-    date: "May 2023 - August 2023",
+    date: "May 2023 - December 2023",
     points: [
       "Full-stack web development intensive course. JavaScript/react, Python/Django, DevOps.",
       "Collaborating with fellow student developer to create high-quality apps.",
