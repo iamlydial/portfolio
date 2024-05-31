@@ -60,7 +60,7 @@ export const navLinks = [
   {
     id: "contact",
     title: "Contact",
-  }
+  },
 ];
 
 const services = [
@@ -285,7 +285,7 @@ const projects = [
       },
       {
         name: "Clerk Login",
-        color: "green-text-gradient",
+        color: "pink-text-gradient",
       },
     ],
     image: threadsClone,
@@ -306,7 +306,7 @@ const projects = [
       },
       {
         name: "Rapid API",
-        color: "green-text-gradient",
+        color: "pink-text-gradient",
       },
     ],
     image: cryptoApp,

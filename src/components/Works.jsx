@@ -26,11 +26,17 @@ const ProjectCard = ({
             className="relative w-full h-[230px]"
             style={{ visibility: "visible", opacity: 1 }}
           >
-            <img
-              src={image}
-              alt={name}
-              className="w-full h-full object-cover rounded-2xl"
-            />
+            <a
+              href={source_code_link}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={image}
+                alt={name}
+                className="w-full h-full object-cover rounded-2xl"
+              />
+            </a>
           </div>
 
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
@@ -75,7 +81,7 @@ const Works = () => {
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
           Projects showcases my skills and experience through real-world example
-           of my work. Each projects is described and linked to the live demo on
+          of my work. Each projects is described and linked to the live demo on
           GitHub Pages.
         </p>
       </div>
