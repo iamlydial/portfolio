@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import logo1 from "./logo1.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
@@ -37,11 +36,9 @@ import constructorLearning from "./company/constructor-learning.png";
 import secureMeters from "./company/secure_meters_logo.png";
 import xcelBrands from "./company/xcel-brands.png";
 
-import carrent from "./carrent.png";
 import constructorWebsite from "./constructorWebsite.png";
-import jobit from "./jobit.png";
+
 import luna from "./luna.png";
-import tripguide from "./tripguide.png";
 import pongGame from "./pongGame.png";
 import pongGame2 from "./pongGame2.png";
 import toDoListApp from "./toDoListApp.png";
@@ -54,7 +51,6 @@ import nike from "./nike.png";
 import threadsClone from "./threads_clone.png";
 
 export {
-  logo,
   logo1,
   backend,
   creator,
@@ -90,12 +86,9 @@ export {
   starbucks,
   tesla,
   smiley,
-  carrent,
-  jobit,
   luna,
   pongGame,
   pongGame2,
-  tripguide,
   toDoListApp,
   xcelBrands,
   angularCalculator,
@@ -106,4 +99,3 @@ export {
   nike,
   threadsClone,
 };
-
