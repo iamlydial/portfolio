@@ -151,7 +151,7 @@ const experiences = [
     company_name: "Secure Meters Switzerland",
     icon: secureMeters,
     iconBg: "#f5f3f2",
-    date: "December 2023 - August 2024",
+    date: "December 2023 - May 2024",
     points: [
       "Cloud-based power network analytics platform.",
       "Creation of full-stack Angular/NodeJS/R synthetic grid generator with OpenMap API part of the Publication below",
