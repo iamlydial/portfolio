@@ -40,10 +40,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a Full-Stack developer with 800+ hours of JS, React, Docker,
-        Python, PHP, and Django work and prior successful US, LATAM, UK, and EU
-        experience in eCommerce & Marketing Strategy, Cross Functional Team
-        Management, Sales Agile Project Management, A/B Testing, and UX.
+        I am a Full-Stack developer with 2000+ hours of JS, React, Docker,
+        Python, Angular, Java, Junit, PHP, and Django work and prior successful
+        US, LATAM, UK, and EU experience in eCommerce & Marketing Strategy,
+        Cross Functional Team Management, Sales Agile Project Management, A/B
+        Testing, and UX.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
