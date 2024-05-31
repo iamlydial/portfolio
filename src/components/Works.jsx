@@ -1,6 +1,5 @@
 import React from "react";
 import { Tilt } from "react-tilt";
-import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { github } from "../assets";
@@ -19,7 +18,7 @@ const ProjectCard = ({
   return (
     <>
       <div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-        <Tilt
+        <div
           options={{ max: 45, scale: 1, speed: 450 }}
           className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
         >
@@ -57,7 +56,7 @@ const ProjectCard = ({
               </p>
             ))}
           </div>
-        </Tilt>
+        </div>
       </div>
     </>
   );
@@ -75,8 +74,8 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Projects showcases my skills and experience trhough real-world example
-          fo my work. Each projects is described and linked to the live demo on
+          Projects showcases my skills and experience through real-world example
+           of my work. Each projects is described and linked to the live demo on
           GitHub Pages.
         </p>
       </div>
