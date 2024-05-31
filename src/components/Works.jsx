@@ -18,7 +18,7 @@ const ProjectCard = ({
 }) => {
   return (
     <>
-      <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+      <div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
         <Tilt
           options={{ max: 45, scale: 1, speed: 450 }}
           className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
@@ -58,7 +58,7 @@ const ProjectCard = ({
             ))}
           </div>
         </Tilt>
-      </motion.div>
+      </div>
     </>
   );
 };
@@ -66,19 +66,19 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <div variants={textVariant()}>
         <p className={styles.sectionSubText}>My Work</p>
         <h2 className={styles.sectionHeadText}>Projects.</h2>
-      </motion.div>
+      </div>
       <div className="w-full flex">
-        <motion.p
+        <p
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
           Projects showcases my skills and experience trhough real-world example
           fo my work. Each projects is described and linked to the live demo on
           GitHub Pages.
-        </motion.p>
+        </p>
       </div>
       <div className="mt-20 flex flex-wrap gap-7">
         {projects.map((project, index) => (
