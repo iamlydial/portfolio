@@ -49,6 +49,7 @@ import materialUI from "./maerial_ui.png";
 import memeGenerator from "./meme_generator.png";
 import nike from "./nike.png";
 import threadsClone from "./threads_clone.png";
+import dayventure from "./dayventure.png";
 
 export {
   logo1,
@@ -98,4 +99,5 @@ export {
   memeGenerator,
   nike,
   threadsClone,
+  dayventure,
 };
