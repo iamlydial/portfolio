@@ -22,6 +22,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import wordpress from "./tech/wordpress.png";
 
 import elemis from "./company/elemis.png";
 import meta from "./company/meta.png";
@@ -50,6 +51,8 @@ import memeGenerator from "./meme_generator.png";
 import nike from "./nike.png";
 import threadsClone from "./threads_clone.png";
 import dayventure from "./dayventure.png";
+import vexel from "./wordpress_elementor.png";
+import trelloClone from "./trello-clone.png";
 
 export {
   logo1,
@@ -69,6 +72,7 @@ export {
   javascript,
   mongodb,
   nodejs,
+  wordpress,
   nicoleFahri,
   osw,
   python,
@@ -100,4 +104,6 @@ export {
   nike,
   threadsClone,
   dayventure,
+  vexel,
+  trelloClone
 };
