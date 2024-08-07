@@ -72,8 +72,8 @@ const Works = () => {
   return (
     <>
       <div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>My work</p>
-        <h2 className={`${styles.sectionHeadText}`}>14 Projects Completed.</h2>
+        <p className={`${styles.sectionSubText} `}>Web-Development work</p>
+        <h2 className={`${styles.sectionHeadText}`}>15 Projects Completed.</h2>
       </div>
 
       <div className="w-full flex">

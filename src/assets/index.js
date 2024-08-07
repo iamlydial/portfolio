@@ -53,6 +53,7 @@ import threadsClone from "./threads_clone.png";
 import dayventure from "./dayventure.png";
 import vexel from "./wordpress_elementor.png";
 import trelloClone from "./trello-clone.png";
+import angularBlog from "./angular_blog.png";
 
 export {
   logo1,
@@ -105,5 +106,6 @@ export {
   threadsClone,
   dayventure,
   vexel,
-  trelloClone
+  trelloClone,
+  angularBlog,
 };

@@ -46,6 +46,7 @@ import {
   dayventure,
   vexel,
   trelloClone,
+  angularBlog,
 } from "../assets";
 
 export const navLinks = [
@@ -285,6 +286,28 @@ const testimonials = [
 const projects = [
   {
     id: 0,
+    name: "Angular Blog",
+    description:
+      "A fullstack Angular, Bootstrap, Firebase (Authentication, Firestore and Hosting) application that is composed by an angular frontend, an angular dashboard for the blogger and a firebase DB and hosting",
+    tags: [
+      {
+        name: "Angular",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "green-text-gradient",
+      },
+    ],
+    image: angularBlog,
+    source_code_link: "https://ang-blog-c2180.web.app/",
+  },
+  {
+    id: 1,
     name: "Trello Clone",
     description:
       "A fullstack Angular, NodeJS, Mongo, SocketIO application that replicated the famous Trello app.",
@@ -310,7 +333,7 @@ const projects = [
     source_code_link: "https://github.com/iamlydial/trello-clone",
   },
   {
-    id: 1,
+    id: 2,
     name: "Vexel",
     description: "A Wordpress Elementor website for a virtual agency",
     tags: [
@@ -331,7 +354,7 @@ const projects = [
     source_code_link: "https://lldigitalagency.com/",
   },
   {
-    id: 2,
+    id: 3,
     name: "Dayventure App",
     description:
       "A React, Tailwind, Python, Django, Postgres Social Media day planning app with integration with Google Places API.",
@@ -357,7 +380,7 @@ const projects = [
     source_code_link: "https://dayventure.net/",
   },
   {
-    id: 3,
+    id: 4,
     name: "NextJS Threads clone With Tailwind",
     description: "A clone of the Threads app using Clerk login",
     tags: [
@@ -378,7 +401,7 @@ const projects = [
     source_code_link: "https://threads-six-sigma.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     name: "CriptoVerse",
     description:
       "A monitoring dashboard of Crypto currencies in React and Material UI using third party Rapid API",
@@ -400,7 +423,7 @@ const projects = [
     source_code_link: "https://cryptoapp-rho-topaz.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     name: "Angular Calculator With Tailwind",
     description:
       "An Angular Calculator app using Tailwind framework and deployed on Vercel",
@@ -418,7 +441,7 @@ const projects = [
     source_code_link: "https://meme-generator-amber-psi.vercel.app/",
   },
   {
-    id: 6,
+    id: 7,
     name: "Meme Generator",
     description:
       "An Angular Meme genrator app. The user is able to upload a picture write on it and download it, deployed on Vercel.",
@@ -440,7 +463,7 @@ const projects = [
     source_code_link: "https://meme-generator-amber-psi.vercel.app/",
   },
   {
-    id: 7,
+    id: 8,
     name: "Nike Landing Page Clone",
     description:
       "An React Nike landing page clone using TailwindCss, deployed on Vercel.",
@@ -462,7 +485,7 @@ const projects = [
     source_code_link: "https://nike-black.vercel.app/",
   },
   {
-    id: 8,
+    id: 9,
     name: "Gym App Landing Page",
     description:
       "An React gym app landing page using TailwindCss, deployed on Vercel.",
@@ -484,7 +507,7 @@ const projects = [
     source_code_link: "https://wellness-gym.vercel.app/",
   },
   {
-    id: 9,
+    id: 10,
     name: "Luna",
     description:
       "A Yelp look-alike in Python/Django and ES6/React stack. Anonymous / Registered Users Access, Creation / View/ Update/ Delete of Restaurant and Reviews.",
@@ -510,7 +533,7 @@ const projects = [
     source_code_link: "https://github.com/iamlydial/luna-project",
   },
   {
-    id: 10,
+    id: 11,
     name: "To Do List App",
     description:
       "To Do list app with User Registration, Login, Search and full Create Read Update and DELETE functionality. Setting up models and database, Create, Update ,Delete Items, Login/Logout, User Registration, Search",
@@ -532,7 +555,7 @@ const projects = [
     source_code_link: "https://github.com/iamlydial/Django-To-Do-List-App",
   },
   {
-    id: 11,
+    id: 12,
     name: "Pong Game",
     description:
       "A fun and simple Ping Pong game using HTML, CSS, and JavaScript. The game has score counter and increasing complexity. The gradient background of the game increase as the complexity increases.",
@@ -554,7 +577,7 @@ const projects = [
     source_code_link: "https://iamlydial.github.io/pong-game-js/",
   },
   {
-    id: 12,
+    id: 13,
     name: "Pong Game 2",
     description:
       "A fun and simple Ping Pong game using HTML, CSS, vanilla JavaScript and Canva. A good way to practice Drawing Elements, Ball Bouncing Mechanics, Paddle (player) movement.",
@@ -576,7 +599,7 @@ const projects = [
     source_code_link: "https://iamlydial.github.io/pong-game-canva/",
   },
   {
-    id: 13,
+    id: 14,
     name: "Constructor Learning Website",
     description:
       "A replica of the Constructor Learning Web Development School page website, including a side navigation bar and a list of courses. Simple Html and Css page exercise to get familiar with Css flexbox.",
