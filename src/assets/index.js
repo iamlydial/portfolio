@@ -54,6 +54,8 @@ import dayventure from "./dayventure.png";
 import vexel from "./wordpress_elementor.png";
 import trelloClone from "./trello-clone.png";
 import angularBlog from "./angular_blog.png";
+import movieAPI from "./MovieAPI.png"
+import sharePrompt from "./SharePrompt.png"
 
 export {
   logo1,
@@ -108,4 +110,6 @@ export {
   vexel,
   trelloClone,
   angularBlog,
+  movieAPI,
+  sharePrompt
 };
