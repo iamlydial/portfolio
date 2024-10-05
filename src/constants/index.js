@@ -50,6 +50,7 @@ import {
   angularBlog,
   movieAPI,
   sharePrompt,
+  mernEstates
 } from "../assets";
 
 export const navLinks = [
@@ -299,6 +300,33 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    id: 0,
+    name: "MERN Estates",
+    description:
+      "A fullstack MongoDB, Express, React, and NodeJS Real Estate app using Firebase Auth and Storage and TailwindCSS.",
+    tags: [
+      {
+        name: "MongoDB",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Express",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: mernEstates,
+    source_code_link:
+      "https://mern-estates-fojv.onrender.com/",
+  },
   {
     id: 0,
     name: "Movie API",

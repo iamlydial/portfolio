@@ -36,7 +36,7 @@ import smiley from "./company/smiley.png";
 import constructorLearning from "./company/constructor-learning.png";
 import secureMeters from "./company/secure_meters_logo.png";
 import xcelBrands from "./company/xcel-brands.png";
-
+import hideElectricSupply from "./company/hide_electric_supply_logo.jpeg";
 import constructorWebsite from "./constructorWebsite.png";
 
 import luna from "./luna.png";
@@ -56,7 +56,7 @@ import trelloClone from "./trello-clone.png";
 import angularBlog from "./angular_blog.png";
 import movieAPI from "./MovieAPI.png";
 import sharePrompt from "./SharePrompt.png";
-import hideElectricSupply from "./company/hide_electric_supply_logo.jpeg";
+import mernEstates from "./mernEstates.png"
 
 export {
   logo1,
@@ -114,4 +114,5 @@ export {
   angularBlog,
   movieAPI,
   sharePrompt,
+  mernEstates
 };
