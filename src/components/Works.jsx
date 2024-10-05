@@ -73,7 +73,7 @@ const Works = () => {
     <>
       <div variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>Web-Development work</p>
-        <h2 className={`${styles.sectionHeadText}`}>17 Projects Completed.</h2>
+        <h2 className={`${styles.sectionHeadText}`}>18 Projects Completed.</h2>
       </div>
 
       <div className="w-full flex">
