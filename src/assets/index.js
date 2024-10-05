@@ -54,8 +54,9 @@ import dayventure from "./dayventure.png";
 import vexel from "./wordpress_elementor.png";
 import trelloClone from "./trello-clone.png";
 import angularBlog from "./angular_blog.png";
-import movieAPI from "./MovieAPI.png"
-import sharePrompt from "./SharePrompt.png"
+import movieAPI from "./MovieAPI.png";
+import sharePrompt from "./SharePrompt.png";
+import hideElectricSupply from "./company/hide_electric_supply_logo.jpeg";
 
 export {
   logo1,
@@ -85,6 +86,7 @@ export {
   typescript,
   threejs,
   constructorLearning,
+  hideElectricSupply,
   secureMeters,
   constructorWebsite,
   elemis,
@@ -111,5 +113,5 @@ export {
   trelloClone,
   angularBlog,
   movieAPI,
-  sharePrompt
+  sharePrompt,
 };

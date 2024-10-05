@@ -29,6 +29,7 @@ import {
   tesla,
   shopify,
   constructorWebsite,
+  hideElectricSupply,
   secureMeters,
   luna,
   pongGame,
@@ -48,7 +49,7 @@ import {
   trelloClone,
   angularBlog,
   movieAPI,
-  sharePrompt
+  sharePrompt,
 } from "../assets";
 
 export const navLinks = [
@@ -161,6 +162,18 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "Full-stack Developer and eCommerce advisor",
+    company_name: "Hide Electric Supply",
+    icon: hideElectricSupply,
+    iconBg: "#f5f3f2",
+    date: "July 2024 - Present",
+    points: [
+      "Electrical goods eCommerce.",
+      "Redesign of the whole UX, and Shopify Template development.",
+      "Maintenance of current Woocommerce and ecommerce strategy direction.",
+    ],
+  },
   {
     title: "Full-Stack Engineer Practice",
     company_name: "Secure Meters Switzerland",
@@ -306,7 +319,8 @@ const projects = [
       },
     ],
     image: movieAPI,
-    source_code_link: "https://github.com/iamlydial/react-java-mongo-movie-review-app",
+    source_code_link:
+      "https://github.com/iamlydial/react-java-mongo-movie-review-app",
   },
   {
     id: 1,
