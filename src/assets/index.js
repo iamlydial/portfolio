@@ -56,7 +56,8 @@ import trelloClone from "./trello-clone.png";
 import angularBlog from "./angular_blog.png";
 import movieAPI from "./MovieAPI.png";
 import sharePrompt from "./SharePrompt.png";
-import mernEstates from "./mernEstates.png"
+import mernEstates from "./mernEstates.png";
+import aiResume from "./ai-resume.png";
 
 export {
   logo1,
@@ -114,5 +115,6 @@ export {
   angularBlog,
   movieAPI,
   sharePrompt,
-  mernEstates
+  mernEstates,
+  aiResume,
 };

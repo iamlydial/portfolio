@@ -50,7 +50,8 @@ import {
   angularBlog,
   movieAPI,
   sharePrompt,
-  mernEstates
+  mernEstates,
+  aiResume
 } from "../assets";
 
 export const navLinks = [
@@ -300,6 +301,33 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    id: 0,
+    name: "AI Resume Builder",
+    description:
+      "A fullstack STRAPI, React, and Gemini AI Resume Builder app using Clerk and TailwindCSS.",
+    tags: [
+      {
+        name: "Strapi",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Gemini AI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TailwindCss",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: aiResume,
+    source_code_link:
+      "https://ai-resume-builder-fx0p.onrender.com/",
+  },
   {
     id: 0,
     name: "MERN Estates",
